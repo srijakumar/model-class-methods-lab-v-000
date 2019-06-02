@@ -24,5 +24,9 @@ def self.without_a_captain
   where(captain_id: nil)
 end
 
+def self.sailboats
+  where()
+end
+
 
 end
