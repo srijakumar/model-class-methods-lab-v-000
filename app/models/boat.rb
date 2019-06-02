@@ -9,7 +9,7 @@ def self.first_five
 end
 
 def dinghy
-  where ("length<20")
+  where ("length < 20")
 end
 
 def self.ship
