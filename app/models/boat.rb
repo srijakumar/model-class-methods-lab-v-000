@@ -28,5 +28,9 @@ def self.sailboats
   includes(:classifications).where(classifications: {name: 'Sailboat'})
 end
 
+def self.with_three_classifications
+
+end
+
 
 end
