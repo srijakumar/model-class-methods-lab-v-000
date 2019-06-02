@@ -25,7 +25,7 @@ def self.without_a_captain
 end
 
 def self.sailboats
-  where(classifications: {name: 'Sailboat'})
+  includes(:classifications).where(classifications: {name: 'Sailboat'})
 end
 
 
