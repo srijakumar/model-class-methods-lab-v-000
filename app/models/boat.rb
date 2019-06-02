@@ -29,7 +29,7 @@ def self.sailboats
 end
 
 def self.with_three_classifications
-
+  group("boats.id").having("COUNT(*) = 3")
 end
 
 
